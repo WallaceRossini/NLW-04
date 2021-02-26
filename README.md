@@ -86,7 +86,7 @@ $ yarn start:dev
 
 ## 📝 License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/DanielObara/NLW-1.0/blob/master/LICENSE) for details.
+This project is under the MIT license. See the [LICENSE](https://github.com/WallaceRossini/NLW-04/blob/master/LICENSE) for details.
 
 Made with 🌀 by Wallace Rossini [Get in touch!](https://www.linkedin.com/in/wallacerossini/)
 
