@@ -54,7 +54,7 @@ No primeiro dia vamos aprender os conceitos básicos sobre o que é uma API, ent
 
 ## 🚀 Technologies
 
-This project was developed with the following technologies:
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js][nodejs]
 - [TypeScript][typescript]
@@ -64,7 +64,7 @@ This project was developed with the following technologies:
 
 Para clonar e executar este aplicativo, você precisará do [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] instalado no seu computador.
 
-From your command line:
+Na linha de comando:
 
 ### Install API 
 
@@ -86,7 +86,7 @@ $ yarn start:dev
 
 ## 📝 License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/WallaceRossini/NLW-04/blob/master/LICENSE) for details.
+Este projeto está sob a licença do MIT. Veja o [LICENSE](https://github.com/WallaceRossini/NLW-04/blob/master/LICENSE) for details.
 
 Made with 🌀 by Wallace Rossini [Get in touch!](https://www.linkedin.com/in/wallacerossini/)
 
