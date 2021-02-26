@@ -25,7 +25,7 @@
   </img>
 </p>
   <p align="center">
-  <a href=".github/insomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://github.com/WallaceRossini/NLW-04/blob/master/.github/Insomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
   </p>
 </p>
 <p align="center">
