@@ -1,0 +1,213 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2021-02-25T22:43:24.429Z",
+  "__export_source": "insomnia.desktop.app:v2020.5.2",
+  "resources": [
+    {
+      "_id": "req_32f1947d73814029a474463118fcab4f",
+      "parentId": "fld_6be4fd08722c4ac9932f79a5cad584cf",
+      "modified": 1614276679245,
+      "created": 1614272861611,
+      "url": "{{ _.api_uri }}:{{ _.api_port }}/sendMail",
+      "name": "Send mail",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"email\":\"rossiniwallace@gmail.com\",\n\t\"survey_id\":\"d8f19edf-8ae5-4efa-9ebc-b13ac352d7a1\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_c3228f5f56a84de88c03dfaa1feb7376"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1614272861611,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_6be4fd08722c4ac9932f79a5cad584cf",
+      "parentId": "wrk_e224465c9d5d4325add537ba748b6a58",
+      "modified": 1614272849888,
+      "created": 1614272849888,
+      "name": "Send Mail",
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1614272849888,
+      "_type": "request_group"
+    },
+    {
+      "_id": "wrk_e224465c9d5d4325add537ba748b6a58",
+      "parentId": null,
+      "modified": 1614254409760,
+      "created": 1614254409760,
+      "name": "NLW#04",
+      "description": "",
+      "scope": null,
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_9489b5884f454b9aaadb4e98898a4bc5",
+      "parentId": "fld_8ee3c9b2c5c3480cbce2f3052150dd41",
+      "modified": 1614257522702,
+      "created": 1614257409584,
+      "url": "{{ _.api_uri }}:{{ _.api_port }}/surveys",
+      "name": "Create survey",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"title\":\"Queremos ouvir sua opinião!\",\n\t\"description\":\"De 0 a 10, quanto você recomendaria a Rockeseat?\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_0838d201b717414f98e7bc6e85f7a1ed"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1614257409585,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_8ee3c9b2c5c3480cbce2f3052150dd41",
+      "parentId": "wrk_e224465c9d5d4325add537ba748b6a58",
+      "modified": 1614257398221,
+      "created": 1614257398221,
+      "name": "Surveys",
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1614257398222,
+      "_type": "request_group"
+    },
+    {
+      "_id": "req_484f631fc75a4cc18cffc2bbd517158c",
+      "parentId": "fld_8ee3c9b2c5c3480cbce2f3052150dd41",
+      "modified": 1614258318198,
+      "created": 1614258312875,
+      "url": "{{ _.api_uri }}:{{ _.api_port }}/surveys",
+      "name": "List surveys",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1614255933249.5,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_c880c4f616014a53ab965a24608593e0",
+      "parentId": "fld_12230c3225b7419284fa84a4a02a6051",
+      "modified": 1614255474585,
+      "created": 1614254456913,
+      "url": "{{ _.api_uri }}:{{ _.api_port }}/users",
+      "name": "Create user",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\":\"Wallace Rossini\",\n\t\"email\":\"rossiniwallace@gmail.com\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_aa24e85a6dcb480f9c27d075e1c7988d"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1614254456914,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_12230c3225b7419284fa84a4a02a6051",
+      "parentId": "wrk_e224465c9d5d4325add537ba748b6a58",
+      "modified": 1614254447169,
+      "created": 1614254447169,
+      "name": "Users",
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1614254447171,
+      "_type": "request_group"
+    },
+    {
+      "_id": "env_3a670f5c57949a50c8fe2f57575e1f24f713a63c",
+      "parentId": "wrk_e224465c9d5d4325add537ba748b6a58",
+      "modified": 1614255457630,
+      "created": 1614254409937,
+      "name": "Base Environment",
+      "data": {
+        "api_uri": "http://127.0.0.1",
+        "api_port": 4000
+      },
+      "dataPropertyOrder": {
+        "&": [
+          "api_uri",
+          "api_port"
+        ]
+      },
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1614254409937,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_3a670f5c57949a50c8fe2f57575e1f24f713a63c",
+      "parentId": "wrk_e224465c9d5d4325add537ba748b6a58",
+      "modified": 1614254409943,
+      "created": 1614254409943,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_2ee65ffd4d4149bc81272145150f62ce",
+      "parentId": "wrk_e224465c9d5d4325add537ba748b6a58",
+      "modified": 1614254409769,
+      "created": 1614254409769,
+      "fileName": "NLW#04",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
